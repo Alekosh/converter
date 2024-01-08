@@ -1,0 +1,26 @@
+/* ============================================ */
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+form{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: center;
+
+  gap: 8px;
+  border: 2px dashed red;
+  padding: 8px;
+}
+.num, .speed{
+  flex: 1 0 130px;
+}
+button{
+  flex: 1 0 40px;
+  background: transparent;
+  padding: 8px;
+}
+/* .speed{
+  height: 65px;
+} */
