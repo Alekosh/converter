@@ -11,20 +11,23 @@
 <body>
   <main>
     <section class="container">
-      <form> <!-- action="options" -->
+      <div class="form">
         <input class="num">
-        <select size="3" name="hero" class="speed">
+        <select class="speed">
           <option disabled>Выберите скорость</option>
-          <option value="t1" selected>1</option>
-          <option value="t2">1.25</option>
-          <option value="t3">1.50</option>
-          <option value="t4">1.75</option>
-          <option value="t5">2</option>
+          <option value="1" selected>1</option>
+          <option value="1.25">1.25</option>
+          <option value="1.50">1.50</option>
+          <option value="1.75">1.75</option>
+          <option value="2">2</option>
         </select>
 
-        <button>Отправить</button>
-      </form>
+        <button class="btn">Отправить</button>
+      </div>
 
+      <!--  -->
+      <p class="result"></p>
+      <!--  -->
     </section>
   </main>
   <script src="script.js"></script>
