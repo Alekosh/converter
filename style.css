@@ -1,7 +1,25 @@
+*{padding: 0; margin: 0; box-sizing: border-box;}
+body{
+  height: 100vh;
+  font-size: 24px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url('https://helpx.adobe.com/content/dam/help/en/photoshop/using/convert-color-image-black-white/jcr_content/main-pars/before_and_after/image-before/Landscape-Color.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+  backdrop-filter: blur(8px);
+}
+span{
+  color: crimson;
+  font-weight: 700;
+}
 /* ============================================ */
 .container{
-  max-width: 1200px;
+  max-width: 1230px;
   margin: 0 auto;
+  padding: 0 30px;
 }
 .form{
   display: flex;
@@ -24,3 +42,13 @@ button{
 /* .speed{
   height: 65px;
 } */
+.flex {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+
+  margin-top: 10px;
+}
+.input__top{
+  margin-bottom: 10px;
+}

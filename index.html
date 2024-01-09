@@ -11,33 +11,42 @@
 <body>
   <main>
     <section class="container">
+      <div class="input__top">
+        <p>Преобразования <span>минуты</span> в оставшиеся <span style="color: crimson;">минуты</span></p>
+      </div>
       <div class="form">
 
-        <input class="num" placeholder="2 Минут или часа">
+        <input class="num" placeholder=" к пример 20 мин">
 
         <select class="speed">
           <option disabled>Выберите скорость</option>
-          <option value="1" selected>1</option>
-          <option value="1.25">1.25</option>
-          <option value="1.50">1.50</option>
-          <option value="1.75">1.75</option>
-          <option value="2">2</option>
+          <option value="1" selected>делим на х1</option>
+          <option value="1.25">делим на х1.25</option>
+          <option value="1.50">делим на х1.50</option>
+          <option value="1.75">делим на х1.75</option>
+          <option value="2">делим на х2</option>
         </select>
 
         <button class="btn">Отправить</button>
       </div>
 
       <!--  -->
-      <div>
-        <input type="radio" id="min" name="drone" value="min" checked />
-        <label for="min">Минуты</label>
-      </div>
+      <div class="flex">
+        <div>
+          <input type="radio" id="min" name="drone" value="min" checked />
+          <label for="min">Минуты</label>
+        </div>
 
-      <div>
-        <input type="radio" id="hour" name="drone" value="hour" />
-        <label for="hour">Часы</label>
+        <div>
+          <input type="radio" id="hour" name="drone" value="hour" />
+          <label for="hour">Часы</label>
+        </div>
       </div>
-      <p class="result"></p>
+      <!--  -->
+      <p class="test"></p>
+      <strong>
+        <p class="result" style="color:crimson"></p>
+      </strong>
       <!--  -->
     </section>
   </main>
