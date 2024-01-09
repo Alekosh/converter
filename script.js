@@ -24,9 +24,12 @@ btn.addEventListener('click', () => {
 hour.addEventListener('click', () => {
   span.innerHTML = 'часы';
   num.placeholder = ' к примеру 1 час'
+  num.value = '';
+  result.innerHTML = '';
 })
 min.addEventListener('click', () => {
   span.innerHTML = 'минуты';
   num.placeholder = ' к пример 20 мин'
+  result.innerHTML = '';
 })
 
