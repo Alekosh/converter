@@ -12,7 +12,9 @@
   <main>
     <section class="container">
       <div class="form">
-        <input class="num">
+
+        <input class="num" placeholder="2 Минут или часа">
+
         <select class="speed">
           <option disabled>Выберите скорость</option>
           <option value="1" selected>1</option>
@@ -26,6 +28,15 @@
       </div>
 
       <!--  -->
+      <div>
+        <input type="radio" id="min" name="drone" value="min" checked />
+        <label for="min">Минуты</label>
+      </div>
+
+      <div>
+        <input type="radio" id="hour" name="drone" value="hour" />
+        <label for="hour">Часы</label>
+      </div>
       <p class="result"></p>
       <!--  -->
     </section>
